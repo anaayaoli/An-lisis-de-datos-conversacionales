@@ -35,15 +35,9 @@ It is part of my portfolio to showcase skills in **linguistic preprocessing, top
 
 ---
 
-## 📊 Example Results
-- Frequent words in filtered intents
-- Distribution of top 25 words
-- 5 latent topics with their most representative keywords
-
----
-
-## ⚙️ Installation
-```bash
-pip install -r requirements.txt
-python -m spacy download es_core_news_sm
+## ✨ What I learned
+- How to clean and lemmatize Spanish texts with spaCy
+- How to compute word frequency distributions
+- How to apply LDA topic modeling to chatbot datasets
+- How to combine linguistics + ML for practical use cases
 
