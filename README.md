@@ -1,43 +1,41 @@
-# Chatbot Intents NLP Analysis
+# 📊 Análisis de Datos Conversacionales
 
-This project explores text data coming from chatbot conversations in order to 
-extract **frequent words** and **main topics** using Natural Language Processing (NLP).
+Este repositorio contiene distintos proyectos y scripts relacionados con **análisis de datos de conversaciones de chatbots** y plataformas de mensajería, realizados como parte de mi portfolio.  
 
-It is part of my portfolio to showcase skills in **linguistic preprocessing, topic modeling and conversational AI**.
+El **objetivo** de este repositorio es:
+- Tener todos mis proyectos de análisis de conversaciones organizados en un solo lugar.
+- Compartirlos con la comunidad para recibir comentarios y sugerencias.
+- Mostrar ejemplos concretos de cómo aplicar técnicas de NLP a datos reales.
 
----
-
-## 🚀 Project Overview
-1. **Data ingestion**: Load an Excel file with chatbot intents.
-2. **Text preprocessing**:
-   - Lowercasing
-   - Tokenization
-   - Lemmatization (spaCy, Spanish model)
-   - Stopwords & irrelevant words removal
-3. **Exploratory analysis**:
-   - Word frequency counts
-   - Top 25 most common words
-4. **Topic modeling**:
-   - Bag-of-Words representation
-   - Latent Dirichlet Allocation (LDA) with 5 topics
-   - Top words per topic
-5. **Visualization**:
-   - Word frequencies
-   - Topic visualization with `pyLDAvis`
+Incluye tareas de:
+- Limpieza y preprocesamiento de textos de usuarios.
+- Filtrado de frases irrelevantes y detección de intenciones.
+- Modelado de tópicos con **BERTopic** y **LDA**.
+- Análisis de sentimientos con **PySentimiento**.
+- Generación de visualizaciones y resúmenes estadísticos.
+- Exportación de resultados a archivos Excel para posterior análisis.
 
 ---
 
-## 🛠️ Tech Stack
-- **Python** (pandas, scikit-learn, spaCy)
-- **NLP**: tokenization, lemmatization, stopword removal
-- **Machine Learning**: Latent Dirichlet Allocation (topic modeling)
-- **Visualization**: matplotlib, pyLDAvis
+## ¿Qué encontrarás en este repositorio?
 
----
+- Análisis de temas: descubre los tópicos principales de las conversaciones de usuarios.
+- Análisis de sentimientos: clasifica mensajes en positivo, negativo o neutral.
+- Filtrado de datos: limpieza de frases irrelevantes, eliminación de duplicados y normalización de texto.
+- Visualizaciones: gráficos de barras, nubes de palabras y resúmenes de estadísticas.
 
-## ✨ What I learned
-- How to clean and lemmatize Spanish texts with spaCy
-- How to compute word frequency distributions
-- How to apply LDA topic modeling to chatbot datasets
-- How to combine linguistics + ML for practical use cases
+## Librerías:
+- bertopic
+- hdbscan
+- openpyxl
+- pandas
+- matplotlib
+- transformers
+- torch
+- pysentimiento
+- tqdm
+- scikit-learn
+- spacy
+
+
 
